@@ -5,6 +5,9 @@ body {
 .wellcome {
 background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
 height: 100vh;
+box-sizing: border-box;
+background-size: cover;
+background-position: bottom right;
 }
 
 .main_title {
