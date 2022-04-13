@@ -1,3 +1,14 @@
 body {
 	margin: 0;
 }
+.title_and_button {
+	min-width: 40px;
+	width: 100%;
+	max-width: 80px;
+	text-transform: capitalize;
+	overflow: hidden;
+}
+.link {
+	padding: 10px;
+	font-size: 18px;
+}
