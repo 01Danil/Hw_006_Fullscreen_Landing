@@ -1,5 +1,9 @@
 body {
 	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	color: #926239;
+	line-height: 1.6em;
 }
 
 .wellcome {
@@ -8,16 +12,18 @@ height: 100vh;
 box-sizing: border-box;
 background-size: cover;
 background-position: bottom right;
+padding-top: 40vh;
+color: #926239;
 }
 
 .main_title {
+	font-size: 50px;
 	min-width: 40px;
 	width: 100%;
 	max-width: 560px;
 	margin: auto;
 	font-size: 50px;
 	line-height: 1.2em;
-	padding-top: 40vh;
 }
 
 .title_and_button {
@@ -25,8 +31,8 @@ background-position: bottom right;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	text-align: center;
 }
+
 .link {
 	display: block;
 	text-decoration: none;
