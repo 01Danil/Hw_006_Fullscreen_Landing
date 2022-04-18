@@ -20,9 +20,9 @@ color: #926239;
 	font-size: 50px;
 	min-width: 40px;
 	width: 100%;
-	max-width: 560px;
+	max-width: 446px;
 	margin: auto;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 1.2em;
 }
 
@@ -35,14 +35,28 @@ color: #926239;
 
 .link {
 	display: block;
+	text-align: center;
 	text-decoration: none;
 	min-width: 60px;
 	width: 100%;
-	max-width: 100px;
-	padding: 10px;
+	max-width: 110px;
+	padding: 5px;
 	margin: auto;
-	font-size: 18px;
+	font-size: 14px;
 	color: #926239;
 	border: 1px solid #926239;
 	border-radius: 10px;
+}
+
+.link:hover {
+	background:#926239;	
+	color:#fff;
+}
+
+.content {
+	display: block;
+	text-align: center;
+	font-weight: normal;
+	font-size: 17px;
+	margin: 0 0 10px 0;
 }
