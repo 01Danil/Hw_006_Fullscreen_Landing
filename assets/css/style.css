@@ -1,9 +1,16 @@
 body {
-	margin: 0;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 17px;
+	background: #f4f4f4;
+	text-align: center;
+	margin: 0;
+	font-size: 14px;
 	color: #926239;
 	line-height: 1.6em;
+}
+
+p {
+	margin: 0;
+	padding: 10px 20px 20px 20px;
 }
 
 .wellcome {
@@ -55,8 +62,29 @@ color: #926239;
 
 .content {
 	display: block;
+	font-size: inherit;
 	text-align: center;
 	font-weight: normal;
-	font-size: 17px;
 	margin: 0 0 10px 0;
+}
+
+.header_section {
+	text-transform: capitalize;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.bg-dark {
+	display: block;
+	margin: 0;
+	background: #926239;
+	color: #fff;
+}
+
+.blocks_article {
+	display: inline-block;
+	text-align: left;
+
 }
